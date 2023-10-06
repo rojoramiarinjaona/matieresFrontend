@@ -1,0 +1,243 @@
+/* #fond{
+    background-color: white;
+    width:100%;
+    height:60%;
+    position:absolute;
+    display: flex;
+}
+
+#texte{
+    min-height:90vh; */
+    /* width:50%; */
+    /* border:1px solid red; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+/* }
+
+#titre h3{
+    font-family: "Century gothic";
+    color:#008BBE;
+    letter-spacing: 1px;   
+}
+
+#titre {
+    width: 80%;
+    padding-left: 20%; */
+    /* border:1px solid red; */
+    /* text-align: left;
+    margin-bottom: 20px;
+}
+
+#para {
+    width: 80%; */
+    /* border:1px solid red; */
+    /* padding-left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+#para p{
+    color: rgba(112, 102, 102, 0.678);
+    font-size: 15px;
+    font-family: Century Gothic;
+    justify-self: self-start;
+}
+
+#link{
+    text-decoration: none;
+    font-family: "Century gothic";
+    letter-spacing: 1px;
+    color:rgba(112, 102, 102, 0.678);
+
+}
+
+#bouton{
+    margin-top: 10px;
+    margin-left: 21%;
+    width:120px;
+    height:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Century gothic";
+    border:1px solid #008BBE;
+    box-shadow: 0px 0px 3px #29AEE4;
+}
+
+#bouton:hover{
+    box-shadow: 0px 0px 5px #29AEE4;
+    color: #008BBE;
+}
+
+#image{ */
+    /* width:50%; */
+    /* min-height:60vh;
+    margin-top: 80px; */
+    /* margin-left: 5%; */
+    /* border:1px solid blue; */
+    /* overflow: hidden;
+}
+
+#image img{
+    height:350px; */
+    /* opacity:85%; */
+    /* margin-left: 10%; */
+/* }
+
+#ligne{
+    position: absolute; */
+    /* border:1px solid orange; */
+    /* opacity:28%;
+    top:40%;
+    left:2%; */
+    /* transform: rotate(90deg); */
+/* }
+
+#scan{
+	width:452px;
+	height: 1px;
+	background-color: #E1F1FF;
+	position: absolute; */
+	/* top:15px; */
+	/*transition: */
+	/* animation: 5s infinite alternate slidein;
+	z-index: 1000;
+    box-shadow: 0 0 4px #29AEE4;
+    border-radius: 30px;
+} */
+
+
+/* @keyframes slidein {
+    from {
+         top: 15px;
+    }
+  
+    to {
+     top:560px;
+    }
+  } */
+  /* Mise en page de la page entière */
+.page-container {
+    display: flex;
+  }
+  
+  /* Styles pour le menu vertical */
+  .sidebar {
+    width: 200px; /* Largeur du menu vertical */
+    background-color: #333; /* Couleur de fond du menu */
+    color: #fff; /* Couleur du texte */
+    padding: 20px;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    padding: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .link:hover {
+    background-color: #555; /* Couleur au survol */
+  }
+  
+  .acc {
+    /* Styles pour le texte à l'intérieur des liens */
+  }
+  
+  /* Styles pour le contenu de la page */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  /* Styles spécifiques à la page d'accueil */
+  #fond {
+    background-color: white;
+    width: 100%;
+    height: 60%;
+    display: flex;
+  }
+  
+  #texte {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #titre h3 {
+    font-family: "Century Gothic";
+    color: #008BBE;
+    letter-spacing: 1px;
+  }
+  
+  #titre {
+    width: 80%;
+    padding-left: 20%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  #para {
+    width: 80%;
+    padding-left: 20%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  
+  #para p {
+    color: rgba(112, 102, 102, 0.678);
+    font-size: 15px;
+    font-family: Century Gothic;
+    justify-self: self-start;
+  }
+  
+  #link {
+    text-decoration: none;
+    font-family: "Century Gothic";
+    letter-spacing: 1px;
+    color: rgba(112, 102, 102, 0.678);
+  }
+  
+  #bouton {
+    margin-top: 10px;
+    margin-left: 21%;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Century Gothic";
+    border: 1px solid #008BBE;
+    box-shadow: 0px 0px 3px #29AEE4;
+  }
+  
+  #bouton:hover {
+    box-shadow: 0px 0px 5px #29AEE4;
+    color: #008BBE;
+  }
+  
+  #image {
+    min-height: 60vh;
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  
+  #image img {
+    height: 350px;
+    opacity: 85%;
+  }
+  
